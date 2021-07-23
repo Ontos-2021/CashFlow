@@ -6,7 +6,7 @@ def main():
     ing = Profesion("Ingeniero Civil Industrial", 1000)
 
     # Creo un usuario
-    usuario1 = Usuario("José Miguel Mercado Gutiérrez", ing)
+    usuario1 = Usuario("José Miguel Mercado Gutiérrez", ing, 26)
 
     # Imprimo el saldo del usuario
 

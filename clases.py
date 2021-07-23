@@ -18,10 +18,12 @@ class Billetera:
 
 
 class Usuario:
-    def __init__(self, nombre, profesion):
+    def __init__(self, nombre, profesion, edad=int):
         self.nombre = nombre
         self.profesion = profesion
         self.billetera = Billetera(self, profesion.saldo_inicial)
+        self.edad = edad
+
 
     def __str__(self):
         return self.nombre

@@ -24,7 +24,6 @@ class Usuario:
         self.billetera = Billetera(self, profesion.saldo_inicial)
         self.edad = edad
 
-
     def __str__(self):
         return self.nombre
 
